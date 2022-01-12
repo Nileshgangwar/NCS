@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NCSLog &#8211; Simplifying Your Logistics</title>
+
+	<link href="css/master.css" rel="stylesheet">
+	<script src="./js/jquery-3.6.0.min.js"></script>
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+</head>
+
+<body data-scrolling-animations="true">
+	<div class="sp-body">
+
+
+		<header id="this-is-top">
+			<div class="container-fluid">
+				<div class="topmenu row">
+
+					<nav class="text-right col-sm-3 col-md-3 col-lg-12">
+						<a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+
+						<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+
+						<a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+					</nav>
+				</div>
+				<div class="row header">
+					<div class="col-sm-3 col-md-3 col-lg-3">
+						<a href="index.html"><img src="img/logo1.png" id="logo" alt=""></a>
+					</div>
+					<div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8">
+						<div class="text-right header-padding">
+							<div class="h-block"><span>CALL US</span>+91 9223338770 <br>
+								+91 9223338771 <br>
+								+91 9223338772
+							</div>
+							<div class="h-block"><span>EMAIL US</span>info@ncslog.com</div>
+							<div class="h-block"><span>WORKING HOURS</span>Mon - Sat 9.00 - 18.00
+							</div>
+							<a class="btn btn-success" href="contact.html">GET A FREE QUOTE</a>
+						</div>
+					</div>
+				</div>
+				<div id="main-menu-bg"></div>
+				<a id="menu-open" href="#"><i class="fa fa-bars"></i></a>
+				<nav class="main-menu navbar-main-slide">
+					<ul class="nav navbar-nav navbar-main">
+						<li><a href="index.html">HOME</a></li>
+
+						<li class="dropdown">
+
+							
+
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								
+
+							</ul>
+
+						</li>
+						<li><a class="dropdown-item" href="about.html">ABOUT US</a></li>
+						<li><a class="dropdown-item" href="features.html">OUR FEATURES</a></li>
+
+						<li><a href="services.html">OUR SERVICES</a></li>
+
+						<li><a href="contact.html">CONTACT US</a></li>
+
+					</ul>
+
+				</nav>
+				<a id="menu-close" href="#"><i class="fa fa-angle-double-up"></i></a>
+			</div>
+		</header>
+
+		<!-- <div id="owl-main-slider" class="owl-carousel enable-owl-carousel" data-single-item="true" -->
+			<!-- data-pagination="false" data-auto-play="true" data-main-slider="true" data-stop-on-hover="true"> -->
+		<div class = slider-box1 style="height:40%;width:100%;border:solid 1px;margin-top:10px;">
+
+
+
+
+
+
+
+    <img src="img/slider/img23.jpg" style="width:100%;height:90%;" id="img">
+  
+
+
+
+
+
+
+
+                                            <!-- <img src="img/slider/NCS-Banners_Websites_Banner1  copy.jpg" style="width:100%;height:100%;" >
+		            <img src="img/slider/NCS-Banners_Websites_Banner1  copy.jpg" style="width:100%;height:100%;" >-->
+                         
+			</div>
+
+
+
+
+		</div>
+			<script>
+				var slide = document.getElementById("item");
+				var btn1 = document.getElementById("btn1");
+				var btn2 = document.getElementById("btn2");
+
+				btn1.onclick = function(){
+					slide.style.transform = "translateX(0px)";
+					
+				}
+				btn2.onclick = function(){
+					slide.style.transform = "translateX(-100%)";
+					
+				}
+			</script>
+			
+
+		</div>
+		<div class="big-hr color-1 wow zoomInUp" style="display: block; margin-top: 30px;" data-wow-delay="0.3s">
+			<div class="text-left" style="margin-right:40px;">
+				<h2>We view your business as an extension of ours</h2>
+
+			</div><br><br><br>
+			<div><a class="btn btn-success btn-lg" href="contact.html">We offer customised service for</a></div>
+		</div>
+
+		<!-- Banner 2 -->
+		<div class="slidery" style="margin-top: 50px;">
+			<span id="slide-1"></span>
+			<span id="slide-2"></span>
+			<span id="slide-3"></span>
+			<span id="slide-4"></span>
+			<span id="slide-5"></span>
+			<span id="slide-6"></span>
+			<div class="image-container">
+				<img id="sly" src="img/banner2/7.jpg" class="slidey" />
+				<img id="sly" src="img/banner2/8.jpg" class="slidey" />
+				<img id="sly" src="img/banner2/9.jpg" class="slidey" />
+				<img id="sly" src="img/banner2/10.jpg" class="slidey" />
+				<img id="sly" src="img/banner2/11.jpg" class="slidey" />
+				<img id="sly" src="img/banner2/12.jpg" class="slidey" />
+			</div>
+
+		</div>
+		<center><div id="dy" style="margin-left:-8px;">
+			<style>
+				.buttons {
+					border: none;
+				}
+			</style>
+			<button class="buttons active2"><a href="#slide-1">First Mile</a></button>
+			<button class="buttons"><a href="#slide-2">Mid Mile</a></button>
+			<button class="buttons"><a href="#slide-3">Last Mile</a></button>
+			<button class="buttons"><a href="#slide-4">Per Unit</a></button>
+			<button class="buttons"><a href="#slide-5">Warehousing</a></button>
+			<button class="buttons"><a href="#slide-6">Express Distribution</a></button>
+
+		</div></center>
+
+		<style>
+			.active2 {
+				border: 2px solid #053e70;
+			}
+		</style>
+		<script>
+			$(document).ready(function () {
+				$('#dy button a').click(function (e) {
+
+					$('#dy button').removeClass('active2');
+
+					var $this = $(this).parent();
+					if (!$this.hasClass('active2')) {
+						$this.addClass('active2');
+					}
+					//e.preventDefault();
+				});
+			});
+		</script>
+		<div class="container-fluid">
+			<div class="row column-info block-content">
+				<div class="col-sm-4 col-md-4 col-lg-3 wow fadeInLeft" data-wow-delay="0.5s">
+					<i class="fa fa-truck" id="fafafa"></i>
+					<span></span>
+					<h3>Fixed Dedicated Vehicles</h3>
+					<p>NCSLog provides a comprehensive fleet with respect to dedicated route load services.</p>
+
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-3 wow fadeInLeft" data-wow-delay="0.5s">
+					<i class="fa fa-check-circle-o" id="fafafa"></i>
+					<span></span>
+					<h3>Local Express Distribution</h3>
+					<p>NCS Logistics' vast network helps us efficiently provide a solution to all your logistics' needs.
+					</p>
+
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-3 wow fadeInLeft" data-wow-delay="0.5s">
+					<i class="fa fa-building" id="fafafa"></i>
+					<span></span>
+					<h3>Warehousing</h3>
+					<p>NCS Logistics provides a seamless experience with added services such as warehousing for all your
+						needs.</p>
+
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-3 wow fadeInLeft" data-wow-delay="0.5s">
+					<i class="fa fa-globe" id="fafafa"></i>
+					<span></span>
+					<h3>Konkan Route Distribution</h3>
+					<p>Our ever-growing services are implemented with specifics in mind - utilise our specialized Konkan
+						route distribution service for your business needs.</p>
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<div class="big-hr color-1 wow zoomInUp" data-wow-delay="0.3s">
+			<div class="text-left" style="margin-right:40px;">
+				<h2>WE PROVIDE FASTEST & AFFORDABLE CARGO SERVICES</h2>
+
+			</div><br><br><br>
+			<div><a class="btn btn-success btn-lg" href="contact.html">REQUEST A FREE QUOTE</a></div>
+		</div>
+
+		<div class="container-fluid block-content">
+			<div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
+				<h1>OUR FEATURES</h1>
+
+			</div>
+			<div class="row our-services">
+				<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
+					<a href="features.html">
+						<span><i class="fa fa-clock-o" aria-hidden="true" id="fafafa2"></i></span>
+						<h4>24 HOURS</h4>
+						<p>24 Hours movement of goods.</p>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
+					<a href="features.html">
+						<span><i class="fa fa-arrow-circle-o-right" aria-hidden="true" id="fafafa2"></i></span>
+						<h4>FAST</h4>
+						<p>90% of goods dispatched the same day.
+						</p>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
+					<a href="features.html">
+						<span><i class="fa fa-globe" aria-hidden="true" id="fafafa2"></i></span>
+						<h4>NETWORK</h4>
+						<p>Door-to-Door collection & delivery of goods.</p>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
+					<a href="features.html">
+						<span><i class="fa fa-bolt" aria-hidden="true" id="fafafa2"></i></span>
+						<h4>SPEED</h4>
+						<p>Point to point speedy service.</p>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
+					<a href="features.html">
+						<span><i class="fa fa-bullseye" aria-hidden="true" id="fafafa2"></i></span>
+						<h4>EFFICIENT</h4>
+						<p>Efficient customer service cell.</p>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
+					<a href="features.html">
+						<span><i class="fa fa-hourglass-end" aria-hidden="true" id="fafafa2"></i></span>
+						<h4>TATKAL</h4>
+						<p>Similar to tatkal service at affordable freight rates.</p>
+					</a>
+				</div>
+			</div>
+			<div><a class="btn btn-success btn-lg " href="features.html">View All Features</a></div>
+		</div>
+
+
+		<!-- <div class="fleet-gallery block-content bg-image inner-offset">
+			<div class="container-fluid inner-offset">
+				<div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
+					<h1>THE FLEETS GALLERY</h1>
+					<h2>we always use best & fastest fleets</h2>
+				</div>
+				<div id="fleet-gallery" class="owl-carousel enable-owl-carousel" data-pagination="false"
+					data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
+					<div class="wow rotateIn " data-wow-delay="0.3s"><img src="img/slider/1.jpeg" alt="Img">
+					</div>
+					<div class="wow rotateIn" data-wow-delay="0.3s"><img src="img/slider/2.jpeg" alt="Img">
+					</div>
+					<div class="wow rotateIn" data-wow-delay="0.3s"><img src="img/slider/3.jpeg" alt="Img">
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+		<!-- Logo slider -->
+		<div>
+			<div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
+				<h1>Our Client </h1>
+
+			</div>
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+				rel="stylesheet">
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+				rel="stylesheet">
+			<div class="brand-carousel section-padding owl-carousel">
+				<div class="single-logo"><img alt="" src="img/clients/1.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/2.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/3.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/4.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/5.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/6.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/7.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/8.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/9.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/10.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/11.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/12.png"></div>
+				<div class="single-logo"><img alt="" src="img/clients/13.png"></div>
+			</div>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+			</script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+			</script>
+			<script>
+				$('.brand-carousel').owlCarousel({
+					loop: true,
+					margin: 10,
+					autoplay: true,
+					responsive: {
+						0: {
+							items: 1
+						},
+						600: {
+							items: 3
+						},
+						1000: {
+							items: 5
+						}
+					}
+				})
+
+			</script>
+		</div>
+		<footer>
+
+			<div class="container-fluid">
+				<div class="row block-content">
+					<div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
+						<a href="index.html"><img src="img/logo2.png" alt="" class="logo-footer"></a>
+						<p>NCS Logistics and Distribution Private Limited is a company, established in 2002 and is
+							registered under the Company Act, 1956. - It is a growing organization in the field of
+							Express distribution. - Its core competency is local distribution, Mumbai & its suburbs.
+						</p>
+						<div class="footer-icons">
+							<a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+
+							<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+
+							<a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+							<a href="#"><i class="fa fa-google-plus-square fa-2x"></i> </a>
+						</div>
+						<a href="contact.html" class="btn btn-lg btn-danger">GET A FREE QUOTE</a>
+					</div>
+
+					<div class="col-sm-2 wow zoomIn" data-wow-delay="0.3s">
+						<h4>Explore</h4>
+						<nav>
+							<a href="index.html">Home</a>
+							<a href="about.html">About Us</a>
+							<a href="services.html">Our Services</a>
+							<a href="features.html">Our Features</a>
+							<a href="contact.html">Contact Us</a>
+						</nav>
+					</div>
+					<div class="col-sm-4 wow zoomIn" data-wow-delay="0.3s">
+						<h4>CONTACT INFO</h4>
+
+						<div class="contact-info" style="text-align: left;">
+							<span><i class="fa fa-location-arrow"></i>
+								<strong>NCS Logistics And Distribution Pvt
+									Ltd</strong><br>				
+				   Hiramani Building, 126 Super Market,<br><p style="margin-left:23px;">Dr Baba Saheb Ambedkar Rd,<br>
+								     Lal Baug, Mumbai - 400012 Maharashtra, India</p>
+							</span>
+							<span><i class="fa fa-phone"></i>+91 9223338770,<br>
+								+91 9223338771,<br> 
+								+91 9223338772,
+							</span>
+							<span><i class="fa fa-envelope"></i>info@ncslog.com</span>
+							<span><i class="fa fa-clock-o"></i>Mon - sat 9.00 - 18.00</span>
+						</div>
+					</div>
+				</div>
+				<div class="copy text-right"><a id="to-top" href="#this-is-top"><i
+							class="fa fa-chevron-up"></i></a>&copy;
+					By <a href="#">NCS Logistics </a>
+					| All rights reserved | Cooked with ❤️ By Psyber Inc</div>
+			</div>
+		</footer>
+	</div>
+	<!--Main-->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+
+	<script src="assets/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Loader -->
+	<script src="assets/loader/js/classie.js"></script>
+	<script src="assets/loader/js/pathLoader.js"></script>
+	<script src="assets/loader/js/main.js"></script>
+	<script src="js/classie.js"></script>
+	<!--Switcher-->
+	<script src="assets/switcher/js/switcher.js"></script>
+	<!--Owl Carousel-->
+	<script src="assets/owl-carousel/owl.carousel.min.js"></script>
+	<!-- SCRIPTS -->
+	<script type="text/javascript" src="assets/isotope/jquery.isotope.min.js"></script>
+	<!--Theme-->
+	<script src="js/jquery.smooth-scroll.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="js/smoothscroll.min.js"></script>
+	<script src="js/theme.js"></script>
+
+
+<script>
+
+function showSlides() {
+ var x=document.getElementById("img").src="img/slider/img23.jpg";
+}
+function showSlides1() {
+ var x=document.getElementById("img").src="img/slider/NCS-Banners_Websites_Banner1  copy.jpg";
+}
+setInterval(showSlides,2000);
+setInterval(showSlides1,6000);
+
+</script>
+
+</body>
+
+</html>
